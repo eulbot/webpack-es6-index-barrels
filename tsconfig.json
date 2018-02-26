@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "module": "es6",
+        "moduleResolution": "node",
+        "target": "es6",
+        "noEmit": true
+    },
+    "exclude": [
+        "node_modules"
+    ],
+  "include": [
+        "**/*.ts"
+    ]
+}
