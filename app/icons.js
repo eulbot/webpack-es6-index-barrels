@@ -1,6 +1,6 @@
 import { IconSet } from '.'
 
-export var Icons = {
+export const Icons = {
     Add: IconSet.Add,
     Remove: IconSet.Remove
 }

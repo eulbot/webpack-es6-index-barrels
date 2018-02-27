@@ -71,62 +71,62 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./app.ts":
-/*!****************!*\
-  !*** ./app.ts ***!
-  \****************/
+/***/ "./app/app.js":
+/*!********************!*\
+  !*** ./app/app.js ***!
+  \********************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var ___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! . */ \"./index.ts\");\n\r\nconsole.log(___WEBPACK_IMPORTED_MODULE_0__[\"Icons\"]);\r\n\n\n//# sourceURL=webpack:///./app.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var ___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! . */ \"./app/index.js\");\n\r\n\r\nconsole.log(___WEBPACK_IMPORTED_MODULE_0__[\"Icons\"]);\n\n//# sourceURL=webpack:///./app/app.js?");
 
 /***/ }),
 
-/***/ "./iconSet.ts":
-/*!********************!*\
-  !*** ./iconSet.ts ***!
-  \********************/
+/***/ "./app/iconSet.js":
+/*!************************!*\
+  !*** ./app/iconSet.js ***!
+  \************************/
 /*! exports provided: IconSet */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"IconSet\", function() { return IconSet; });\nvar IconSet = {\r\n    Add: 'icon-add',\r\n    Remove: 'icon-remove'\r\n};\r\n\n\n//# sourceURL=webpack:///./iconSet.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"IconSet\", function() { return IconSet; });\nconst IconSet = {\r\n    Add: 'icon-add',\r\n    Remove: 'icon-remove'\r\n}\n\n//# sourceURL=webpack:///./app/iconSet.js?");
 
 /***/ }),
 
-/***/ "./icons.ts":
-/*!******************!*\
-  !*** ./icons.ts ***!
-  \******************/
+/***/ "./app/icons.js":
+/*!**********************!*\
+  !*** ./app/icons.js ***!
+  \**********************/
 /*! exports provided: Icons */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Icons\", function() { return Icons; });\n/* harmony import */ var ___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! . */ \"./index.ts\");\n\r\nvar Icons = {\r\n    Add: ___WEBPACK_IMPORTED_MODULE_0__[\"IconSet\"].Add,\r\n    Remove: ___WEBPACK_IMPORTED_MODULE_0__[\"IconSet\"].Remove\r\n};\r\n\n\n//# sourceURL=webpack:///./icons.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Icons\", function() { return Icons; });\n/* harmony import */ var ___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! . */ \"./app/index.js\");\n\r\n\r\nconst Icons = {\r\n    Add: ___WEBPACK_IMPORTED_MODULE_0__[\"IconSet\"].Add,\r\n    Remove: ___WEBPACK_IMPORTED_MODULE_0__[\"IconSet\"].Remove\r\n}\n\n//# sourceURL=webpack:///./app/icons.js?");
 
 /***/ }),
 
-/***/ "./index.ts":
-/*!******************!*\
-  !*** ./index.ts ***!
-  \******************/
-/*! exports provided: Icons, IconSet */
+/***/ "./app/index.js":
+/*!**********************!*\
+  !*** ./app/index.js ***!
+  \**********************/
+/*! exports provided: IconSet, Icons */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _icons__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./icons */ \"./icons.ts\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"Icons\", function() { return _icons__WEBPACK_IMPORTED_MODULE_0__[\"Icons\"]; });\n\n/* harmony import */ var _iconSet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iconSet */ \"./iconSet.ts\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"IconSet\", function() { return _iconSet__WEBPACK_IMPORTED_MODULE_1__[\"IconSet\"]; });\n\n\r\n\r\n\n\n//# sourceURL=webpack:///./index.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _iconSet__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./iconSet */ \"./app/iconSet.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"IconSet\", function() { return _iconSet__WEBPACK_IMPORTED_MODULE_0__[\"IconSet\"]; });\n\n/* harmony import */ var _icons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./icons */ \"./app/icons.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"Icons\", function() { return _icons__WEBPACK_IMPORTED_MODULE_1__[\"Icons\"]; });\n\n\r\n\n\n//# sourceURL=webpack:///./app/index.js?");
 
 /***/ }),
 
 /***/ 0:
-/*!**********************!*\
-  !*** multi ./app.ts ***!
-  \**********************/
+/*!**************************!*\
+  !*** multi ./app/app.js ***!
+  \**************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__(/*! ./app.ts */\"./app.ts\");\n\n\n//# sourceURL=webpack:///multi_./app.ts?");
+eval("module.exports = __webpack_require__(/*! ./app/app.js */\"./app/app.js\");\n\n\n//# sourceURL=webpack:///multi_./app/app.js?");
 
 /***/ })
 
