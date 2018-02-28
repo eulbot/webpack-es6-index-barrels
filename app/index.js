@@ -1,2 +1,2 @@
-export * from './iconSet'
 export * from './icons'
+export * from './iconSet'
